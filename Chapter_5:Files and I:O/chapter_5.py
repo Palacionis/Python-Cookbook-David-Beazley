@@ -37,5 +37,11 @@ with open("somefile.txt", "rb") as f:  # 'wb' to write
 # Problem_3 : reading and writing compressed datafiles
 
 # Solution : using gzip and bz2 modules
-a
 
+import gzip
+with gzip.open('somefile.gz', 'rt') as f: # wt to write
+    text = f.read()
+
+import bz2
+with bz2.open('somefile.gz', 'rt') as f:
+    text = f.read()
