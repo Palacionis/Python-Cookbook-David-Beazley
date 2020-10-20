@@ -37,4 +37,5 @@ with open("somefile.txt", "rb") as f:  # 'wb' to write
 # Problem_3 : reading and writing compressed datafiles
 
 # Solution : using gzip and bz2 modules
+a
 
