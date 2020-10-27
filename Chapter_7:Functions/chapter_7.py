@@ -81,12 +81,11 @@ minimum(1, 2, 5, -5, 10, clip=0)  # returns 0
 # Problem_4 : you want to attach additional information to your function
 
 # Solution : using function argument annotations, it does not attach any semantic meaning
-"""
-def add(x:int, y:int) -> int:
-    return x+y
+def add(x: int, y: int) -> int:
+    return x + y
 
-add(1,6) # returns 7
-"""
+
+add(1, 6)  # returns 7
 
 # ---------------------------------------------------------------------------
 
